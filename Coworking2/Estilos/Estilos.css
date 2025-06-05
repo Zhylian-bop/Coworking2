@@ -1,0 +1,267 @@
+﻿body {
+    background-image: url('/Multimedia/Imagenes/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
+    background-repeat: no-repeat;
+    padding-top:150px;
+}
+
+#particles-js {
+    height:100vh;
+    width:100%;
+    position:fixed;
+    z-index:-1;
+}
+.Menu-principal {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 0px 0;
+    z-index:1000;
+}
+
+/* Ajusta el fondo del navbar con un borde aguamarina */
+.navbar {
+    background-color: #121212 !important; /* Negro intenso */
+    border-bottom: 3px solid #29a3a3; /* Aguamarina */
+}
+
+/* Estilos para los textos del menú */
+.navbar-nav .nav-link {
+    color: #29a3a3 !important; /* Aguamarina */
+    transition: color 0.3s ease-in-out;
+}
+
+    .navbar-nav .nav-link:hover {
+        color: #42f5f5 !important; /* Turquesa más brillante */
+    }
+
+/* Estilos para los botones de inicio de sesión */
+.btn-outline-light {
+    border-color: #29a3a3 !important;
+    color: #29a3a3 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+    .btn-outline-light:hover {
+        background-color: #29a3a3 !important;
+        color: #ffffff !important;
+    }
+
+.col-md-8 {
+    background-color: #121212;
+    color: #29a3a3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #121212; /* Fondo oscuro */
+    border-top: 3px solid #29a3a3; /* Borde aguamarina */
+    padding: 40px 20px;
+    text-align: center;
+    color: #29a3a3; /* Color de texto aguamarina */
+}
+
+/* Contenido del footer */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Enlaces de redes sociales */
+.social-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+    .social-links a {
+        color: #29a3a3; /* Aguamarina */
+        font-size: 22px;
+        transition: color 0.3s ease-in-out;
+    }
+
+        .social-links a:hover {
+            color: #42f5f5; /* Turquesa más brillante */
+        }
+
+/* Copyright */
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #29a3a3; /* Aguamarina */
+    font-weight: bold;
+}
+
+/* Botones en el footer */
+footer button {
+    background-color: #29a3a3; /* Aguamarina */
+    color: #121212; /* Texto oscuro */
+    border: 2px solid #42f5f5; /* Borde turquesa brillante */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+    footer button:hover {
+        background-color: #42f5f5; /* Turquesa brillante */
+        color: #ffffff; /* Texto blanco */
+    }
+/* Botón Play: Aguamarina normal, negro al hacer hover */
+#btnPlay {
+    background-color: #29a3a3 !important; /* Aguamarina */
+    border: 2px solid #42f5f5; /* Borde turquesa */
+    color: #121212 !important; /* Texto oscuro */
+    transition: all 0.3s ease-in-out;
+}
+
+    #btnPlay:hover {
+        background-color: #121212 !important; /* Negro */
+        border-color: #29a3a3; /* Aguamarina */
+        color: #ffffff !important; /* Texto blanco */
+    }
+
+/* Botón Pausa: Negro normal, aguamarina al hacer hover */
+#btnPause {
+    background-color: #121212 !important; /* Negro */
+    border: 2px solid #29a3a3; /* Borde aguamarina */
+    color: #ffffff !important; /* Texto blanco */
+    transition: all 0.3s ease-in-out;
+}
+
+    #btnPause:hover {
+        background-color: #29a3a3 !important; /* Aguamarina */
+        border-color: #42f5f5; /* Turquesa */
+        color: #121212 !important; /* Texto oscuro */
+    }
+#btnSiguiente {
+    background-color: #29a3a3 !important; /* Aguamarina */
+    border: 2px solid #42f5f5; /* Borde turquesa */
+    color: #121212 !important; /* Texto oscuro */
+    transition: all 0.3s ease-in-out;
+}
+
+    #btnSiguiente:hover {
+        background-color: #121212 !important; /* Negro */
+        border-color: #29a3a3; /* Aguamarina */
+        color: #ffffff !important; /* Texto blanco */
+    }
+
+#btnAnterior {
+    background-color: #121212 !important; /* Negro */
+    border: 2px solid #29a3a3; /* Borde aguamarina */
+    color: #ffffff !important; /* Texto blanco */
+    transition: all 0.3s ease-in-out;
+}
+
+    #btnAnterior:hover {
+        background-color: #29a3a3 !important; /* Aguamarina */
+        border-color: #42f5f5; /* Turquesa */
+        color: #121212 !important; /* Texto oscuro */
+    }
+
+#map {
+    height: 600px; /* Ajusta la altura según lo necesites */
+    width: 70%; /* Ocupa el 70% del ancho de la pantalla */
+    margin: 0 auto; /* Centra el mapa horizontalmente */
+    border: 2px solid #ccc; /* Opcional para visualizar mejor el contenedor */
+    z-index:1;
+}
+/* Contenedor del formulario */
+/* Estilos para el contenedor */
+.form-container {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+    /* Estilos para los textos */
+    .form-container h2,
+    .form-container label {
+        color: #7FFFD4; /* Aguamarina */
+    }
+
+    /* Estilos para el botón */
+    .form-container .btn-primary {
+        background-color: #40E0D0; /* Turquesa */
+        border-color: #40E0D0;
+        color: black;
+        font-weight: bold;
+    }
+
+        .form-container .btn-primary:hover {
+            background-color: #48D1CC; /* Variación de turquesa */
+            border-color: #48D1CC;
+        }
+/* Contenedor del GridView */
+.grid-container {
+    background-color: #121212; /* Fondo oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(41, 163, 163, 0.5); /* Sutil sombra aguamarina */
+}
+
+/* Tabla dentro del GridView */
+.table-grid {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #121212; /* Fondo oscuro */
+    color: #29a3a3; /* Texto aguamarina */
+}
+
+    /* Estilos para la cabecera */
+    .table-grid thead {
+        background-color: #29a3a3; /* Aguamarina */
+        color: #121212; /* Texto oscuro */
+        font-weight: bold;
+    }
+
+    /* Bordes en las celdas */
+    .table-grid th, .table-grid td {
+        padding: 12px;
+        text-align: center;
+        border-bottom: 2px solid #29a3a3; /* Borde aguamarina */
+    }
+
+    /* Filas alternas */
+    .table-grid tbody tr:nth-child(even) {
+        background-color: #1a1a1a; /* Variación más clara de negro */
+    }
+
+    /* Botones dentro del GridView */
+    .table-grid .btn {
+        padding: 6px 12px;
+        font-size: 14px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+.btn-edit {
+    background-color: #29a3a3;
+    border: 2px solid #42f5f5;
+    color: #121212;
+}
+
+    .btn-edit:hover {
+        background-color: #42f5f5;
+        color: #ffffff;
+    }
+
+.btn-delete {
+    background-color: #121212;
+    border: 2px solid #29a3a3;
+    color: #ffffff;
+}
+
+    .btn-delete:hover {
+        background-color: #29a3a3;
+        color: #121212;
+    }

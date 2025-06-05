@@ -1,0 +1,61 @@
+﻿/* Fondo general */
+body {
+    background-color: #dadada; /* Gris perla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos para la tarjeta del formulario */
+.card {
+    background-color: black; /* Fondo negro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos de los campos de entrada */
+.form-control {
+    background-color: #6e6e6e; /* Gris medio */
+    color: #7FFFD4; /* Aguamarina */
+    border: none;
+}
+
+    .form-control::placeholder {
+        color: #a0a0a0; /* Un gris más claro para contraste */
+    }
+
+    .form-control:focus {
+        background-color: #5a5a5a; /* Un tono más oscuro al hacer clic */
+        color: #7FFFD4; /* Aguamarina */
+        border-color: #40E0D0; /* Turquesa */
+    }
+
+/* Estilos de los textos */
+.form-label,
+h2 {
+    color: #7FFFD4; /* Aguamarina */
+}
+
+/* Botón estilizado */
+.btn-primary {
+    background-color: #40E0D0; /* Turquesa */
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+    .btn-primary:hover {
+        background-color: #48D1CC; /* Variación de turquesa */
+    }
+
+/* Estilos del hipervínculo */
+.text-primary {
+    color: #7FFFD4 !important; /* Aguamarina */
+}
+
+    .text-primary:hover {
+        color: #40E0D0 !important; /* Turquesa */
+    }
